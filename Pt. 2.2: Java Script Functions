@@ -1,0 +1,16 @@
+function celsius_to_farenheit(){
+    var a = document.getElementById('temperature').value;
+    var c =  [a*9/5] + 32
+    document.getElementById('fahrenhet').value = c;
+}
+function kgs_to_pounds(){
+    var k = document.getElementById('kilo').value;
+    var p = k * 2.2
+    document.getElementById('pounds').value = p;
+}
+function Kms_to_miles(){
+    var km = Document.getElementById('km').value;
+    var m = km*0.62137
+    Document.getElementById('miles').value = m;
+
+}
